@@ -3,9 +3,15 @@
 sources
 
 https://www.confluent.io/blog/
+
 https://gigaom.com/2013/12/09/netflix-open-sources-its-data-traffic-cop-suro/
+
 http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html
+
 https://www.infoq.com/articles/apache-kafka
+
+https://www.sigmoid.com/integrating-spark-kafka-hbase-to-power-a-real-time-dashboard/
+
 1) the producer can send a set of messages in a single publish request. 
 
 2) supports both the point-to-point delivery model in which multiple consumers jointly consume a single copy of message in a queue as well as the publish-subscribe model in which multiple consumers retrieve its own copy of the message. Following code examples shows a Consumer to consume messages.
